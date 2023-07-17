@@ -23,6 +23,12 @@ body{
   padding: 20px;
 }
 
+.grid-narrow-wide{
+  grid-template-columns: 1fr 2fr;
+  margin: 0;
+  padding: 0;
+}
+
 .grid-3-columns{
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -39,6 +45,16 @@ body{
 .card{
   background-color: white;
   padding: 20px;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  border-radius: 12px;
+}
+
+.album {
+  border-radius: 12px;
 }
 
 .btn{
@@ -95,6 +111,14 @@ header h3 {
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 3px;
+  margin: 0;
+}
+
+header h4{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: black;
   margin: 0;
 }
 

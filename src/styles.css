@@ -87,6 +87,10 @@ nav a:hover, nav li.active a {
 .card h3{
   margin-bottom: 10px;
 }
+
+.endorsements{
+  padding-top: 20px;
+}
 .embed {
   width: 100%;
   aspect-ratio: 21 / 9;

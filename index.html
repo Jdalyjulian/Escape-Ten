@@ -3,19 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/styles.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <title>Escape Ten Percussion</title>
 </head>
 <body>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+        <a href="/index.html" title="Homepage"><img src="media/logo.png" class="logo" alt="Escape Ten Logo"></a>
+        <ul>
+            <li class="active">
+                <a href="/index.html" title="Homepage"> Home </a>
+            </li>
+            <li>
+                <a href="/about.html" title="About Escape Ten"> About </a>
+            </li>
+            <li>
+                <a href="/artists.html" title="About Annie and Andrea"> Artists </a>
+            </li>
+            <li>
+                <a href="/commissions.html" title="Commissioned Work"> Commissions </a>
+            </li>
+            <li>
+              <a href="/media.html" title="Media"> Media </a>
+          </li>
+        </ul> 
+    </nav>
+    </div>
   <div class="container">
   <header>
     <h3>Annie Stevens <small>and</small> Andrea Venet</h3>
     <h1>Escape Ten</h1>
    
-    <a href="#more">Learn More</a>
+    <a href="./about.html">Learn More</a>
   </header>
   <main>
     <section class="grid grid-2-columns">
@@ -45,64 +72,8 @@
         </div>
       </div>
     </section>
-    <section>
-      <h3 class="text-center">Escape Ten</h3>
-      <h2 class="text-center">Media</h2>
-      <div class="grid grid-narrow-wide">
-        <div class="card">
-          <iframe  src="https://open.spotify.com/embed/artist/1urvbvtV5nyT7YNcyB60Kk?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-          <a href="https://www.amazon.com/Colours-Groove-Escape-Ten/dp/B00NI2PHXM/" target="_blank" class="album"><img src="media/colours.jpg" alt="Colours of a Groove album cover" class="image-responsive album"></a>
-          <a href="https://www.amazon.com/Our-Favorite-Things-Escape-Ten/dp/B089HPPWCB/" target="_blank" class="album"><img src="media/favorite.jpeg" alt="Our Favorite Things album cover" class="image-responsive album"></a>
-        </div>
-        <div class="card">
-          <iframe class="embed" src="https://www.youtube.com/embed/NAvSoWj0bYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <iframe class="embed" src="https://www.youtube.com/embed/oRhtOe8MRkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <iframe class="embed" src="https://www.youtube.com/embed/-z2KhAl4DiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </div>
-    </section>
-    <section class="secondary">
-      <h3 class="text-center">Escape Ten</h3>
-      <h2 class="text-center">Commissions</h2>
-      <div class="table-container">
-        <table style="width:50%">
-          <thead>
-            <tr>
-              <th style="width:20%">Date</th>
-              <th style="width:40%">Title</th>
-              <th style="width:40%">Composer</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>2021</td>
-              <td>The Grey</td>
-              <td>Warren Wolf</td>
-            </tr>
-            <tr>
-              <td>2019</td>
-              <td>Magic Time</td>
-              <td>Russell Hartenberger</td>
-            </tr>
-            <tr>
-              <td>2019</td>
-              <td>Around, A Round</td>
-              <td>Erin Graham</td>
-            </tr>
-            <tr>
-              <td>2016</td>
-              <td>Clear Midnight</td>
-              <td>Michael Burritt</td>
-            </tr>
-            <tr>
-              <td>2016</td>
-              <td>Fast Lane</td>
-              <td>Aurél Hollo</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+   
+    
   </main>
   <footer>
     <section class="grid grid-footer">
@@ -113,12 +84,10 @@
     <div>
       <h3>More</h3>
       <ul>
-        <li>About</li>
-        <li>Artists</li>
-        <li>Commissions</li>
-        <li><a href="https://www.youtube.com/@escapetenduo2080" target="_blank">Watch</a></li>
-        <li><a href="https://open.spotify.com/artist/1urvbvtV5nyT7YNcyB60Kk?si=T0oxTowJQKC3rMW5fieFmQ" target="_blank">Listen</a></li>
-        <li>Programs</li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./artists.html">Artists</a></li>
+        <li><a href="./commissions.html">Commissions</a></li>
+        <li><a href="./media.html">Media</a></li>        
       </ul>
     </div>
     </section>

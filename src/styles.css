@@ -111,6 +111,25 @@ nav a:hover, nav li.active a {
   margin-bottom: 40px;
 }
 
+.btn:hover{
+  background-color:#6D6D6D;
+}
+marquee{
+  max-width: 1400px;
+  margin: 0;
+  padding: 10px;
+  background-color: #1895B4;
+}
+
+marquee a{
+  color: #261E1E;
+  transition: all 100ms ease-in-out;
+
+}
+
+marquee a:hover{
+  color: white;
+}
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -128,7 +147,7 @@ header{
   color: white;
   text-align: center;
   border-radius: 5px 5px 0 0;
-  padding: 200px 0;
+  padding: 150px 0;
   margin-top: 20px;
 }
 
@@ -188,6 +207,13 @@ header a{
   text-transform: uppercase;
   color: #6D6D6D;
   background: white;
+  transition: all 100ms ease-in-out;
+}
+
+header a:hover{
+  background-color: #6D6D6D;
+  color: white;
+  text-decoration: none;
 }
 
 main{
@@ -282,17 +308,24 @@ footer h3{
   font-weight: 700;
   font-size: 20px;
   line-height: 1.5px;
+  padding-bottom: 10px;
 
 }
 
 footer p {
   text-align: justify;
   font-size: 12px;
+  opacity: 0.8;
 }
 
 footer a {
   color: white;
   opacity: 0.8;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover{
+  color: white;
 }
 
 footer ul{
